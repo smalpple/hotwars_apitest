@@ -16,5 +16,5 @@ script:
 #  - poetry run coverage report -m
   - poetry run coverage run -m pytest -v
   - poetry run coverage report -m
-#after_success:
-#  - poetry run coveralls
+after_success:
+  - poetry run coveralls
