@@ -8,8 +8,10 @@ authors = ["smallapple_by <biyong199458@163.com>"]
 python = "^3.5"
 pytest = "^6.0.1"
 requests = "^2.24.0"
+coveralls = "^2.1.2"
 
 [tool.poetry.dev-dependencies]
+coverage = "^5.2.1"
 
 [build-system]
 requires = ["poetry>=0.12"]
